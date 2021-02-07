@@ -1,6 +1,6 @@
 *.env
 dist
-.dotbuild
+.melonbuild
 node_modules
 *.lock
 package-lock.json
@@ -10,3 +10,4 @@ src/**/*
 src/
 .DS_Store
 *.tar
+target

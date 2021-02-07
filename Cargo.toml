@@ -1,0 +1,14 @@
+[package]
+name = "melon"
+version = "0.1.0"
+authors = ["Dot HQ <contact@dothq.co>"]
+edition = "2018"
+
+[[bin]]
+name = "melon"
+path = "build/main.rs"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+reqwest = { version = "0.11.0", features = ["json"] }
+clap = { version = "3.0.0-beta.2", features = ["suggestions", "color", "std"] }
